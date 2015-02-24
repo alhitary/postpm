@@ -1,0 +1,8 @@
+services:
+    kinerity.postpm.listener:
+        class: kinerity\postpm\event\listener
+        arguments:
+            - @auth
+            - @user
+        tags:
+            - { name: event.listener }
