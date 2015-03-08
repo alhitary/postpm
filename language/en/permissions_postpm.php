@@ -40,5 +40,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACL_U_POST_PM'	=> 'Can compose new PMs',
+	'ACL_U_POST_PM'			=> 'Can compose new PMs',
+	'ACL_U_POST_PM_ADMIN'	=> 'Can compose new PMs to Administrators',
 ));

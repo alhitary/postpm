@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "An extension for phpBB 3.1.x that allows administrators to limit who can compose new PMs.",
 	"homepage": "http://www.acsyste.com",
-	"version": "1.0.0",
+	"version": "0.0.2",
 	"license": "GPL-2.0",
 	"authors": [
 		{

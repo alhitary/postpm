@@ -3,6 +3,7 @@ services:
         class: kinerity\postpm\event\listener
         arguments:
             - @auth
+            - @template
             - @user
         tags:
             - { name: event.listener }
